@@ -1,0 +1,220 @@
+@media (max-width: 1200px) {
+    /*=============Header_Media_start=====*/
+    .header_bottom_text {
+        padding: 50px 0 144px 70px;
+    }
+    .call_back, .my_meny {
+        display: none;
+    }
+    .footer_button .call_back {
+        display: block;
+    }
+    .phone {
+        display: block;
+    }
+    .menu_box {
+        display: flex;
+    }
+    .header_inner {
+        flex-direction: row-reverse;
+    }
+    .footer_product_1, .footer_product_2, .footer_button button {
+        display: none
+    }
+    .work_row {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        max-width: 729px;
+        margin: auto;
+    }
+    .exampl_inner {
+        max-width: 360px;
+        width: 100%
+    }
+    .stages_text {
+        position: absolute;
+        top: 102px;
+        left: 45px;
+        width: 100%;
+        max-width: 253px;
+    }
+    .stages p:last-child {
+        font-weight: 400;
+        font-size: 16px;
+        color: #ffffff;
+    }
+}
+
+@media (max-width: 1049px) {
+    /*=============reviews_section_css_start=====*/
+    .reviews_blocks {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .reviews_inner {
+        margin-bottom: 50px;
+    }
+    .slick-next::before {
+        top: -200px;
+        left: -40px;
+    }
+    .reviews_inner {
+        margin: 22px auto;
+    }
+}
+
+@media (max-width: 768px) {
+    /*=============Header_Media_start=====*/
+    .p_up {
+        font-size: 56px;
+        font-weight: 700;
+        color: #ffffff;
+        line-height: 75.4px;
+    }
+    .our_advantages_box {
+        margin-bottom: 25px;
+    }
+    /*=============our_partners_section_css_start=====*/
+    .my_row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .partnier {
+        margin-bottom: 15px;
+    }
+    /*=============questions_section_css_start=====*/
+    .questions_block {
+        flex-direction: column;
+        align-items: center;
+    }
+    .questions_block button {
+        margin: 0;
+    }
+    .stages {
+        position: relative;
+        height: 240px;
+    }
+    .stages_button button {
+        margin-top: 100px;
+    }
+    .stages_text {
+        position: absolute;
+        top: 102px;
+        left: 71px;
+        width: 100%;
+        max-width: 253px;
+    }
+}
+
+@media (min-width: 576px) {
+    .modal_clos {
+        position: absolute;
+        top: -29px;
+        right: -25px;
+        font-size: 76px;
+        height: 50px;
+        line-height: 17px;
+        color: rgb(120, 120, 120);
+        background-color: rgb(229, 229, 229);
+    }
+}
+
+@media (max-width: 576px) {
+    /*=============Header_Media_start=====*/
+    .clip {
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    }
+    .header_bottom_text {
+        padding: 90px 13px 144px 13px;
+    }
+    .p_up {
+        font-size: 30px;
+        font-weight: 700;
+        color: #ffffff;
+        line-height: 46.4px;
+    }
+    .p_down {
+        font-size: 25px;
+    }
+    .logo p a {
+        font-family: 'Play';
+        font-size: 18px;
+        color: rgb(120, 120, 120);
+        font-weight: 700;
+    }
+    .blue {
+        font-family: 'Play';
+        font-size: 33px;
+        color: rgb(3, 38, 105);
+        font-weight: 700;
+        letter-spacing: -14px;
+        margin-right: 15px;
+    }
+    .sections_titles {
+        margin-bottom: 25px;
+    }
+    /*=============reviews_section_css_start=====*/
+    .rev_icon {
+        position: absolute;
+        top: 32px;
+        left: -10px;
+    }
+    .reviews {
+        margin-bottom: 0;
+    }
+    .logo_address, .footer_menu {
+        display: none;
+    }
+    .footer_button a {
+        margin: 8px auto;
+    }
+    .footer_inner {
+        justify-content: center;
+    }
+    .textarea_modal {
+        height: 125px;
+    }
+    .modal-body button {
+        margin-top: 10px;
+    }
+    .modal-content {
+        min-height: 380px;
+    }
+
+    .stages_text {
+        position: absolute;
+        top: 102px;
+        left: 53px;
+        width: 100%;
+        max-width: 253px;
+    }
+
+    .address{
+        margin: 0;
+    }
+
+    .slick-next::before {
+        top: -200px;
+        left: 23px;
+    }
+}
+
+@media (max-width: 360px) {
+    .product-img {
+        width: 315px;
+    }
+}
+
+@media (max-width: 320px) {
+    .slick-next::before {
+        top: -206px;
+        left: 23px;
+    }
+
+    .stages p:last-child {
+        font-size: 14px;
+    }
+}

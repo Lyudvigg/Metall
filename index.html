@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    <header id='header'>
+        <div class="header_top">
+            <div class="my_container">
+                <div class="header_inner">
+                    <div class="phone " data-toggle="modal" data-target="#myModal">
+                        <a href="#"> <img src="img/phone.png" alt="aa"></a>
+                    </div>
+                    <div class="logo">
+                        <p><a href="#"> <span class="blue">МТ</span> Металл Трейд</a></p>
+                    </div>
+                    <ul class="my_meny">
+                        <li><a href="#header" class="sc">Главная</a></li>
+                        <li><a href="#our_product" class="sc">Каталог</a></li>
+                        <li><a href="#rev_section" class="sc">Отзывы</a></li>
+                        <li><a href="#cont" class="sc">Контакты</a></li>
+                    </ul>
+
+                    <div class="call_back">
+                        <p class="phone_number" data-toggle="modal" data-target="#myModal">8 999 969 21 03</p>
+                        <button data-toggle="modal" data-target="#myModal">Обратный звонок</button>
+                    </div>
+                    <!-- The Modal -->
+                    <div class="modal" id="myModal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+
+                                <!-- Modal Header -->
+                                <div class="modal-header text-center">
+                                    <span>Обратный звонок</span>
+                                    <button type="button" class="modal_clos" data-dismiss="modal">&times;</button>
+                                </div>
+
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                    <input type="text" placeholder="Имя">
+                                    <input type="text" class="phone_modal">
+                                    <p>
+                                        Мы перезвоним вам
+                                        в течение 5 минут
+                                    </p>
+                                    <button>
+                                        Перезвоните мне
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu_box click_but" data-set="menu_open">
+                        <span class="menu_line"></span>
+                        <span class="menu_line"></span>
+                        <span class="menu_line"></span>
+                    </div>
+                    <ul class="menu_media" id="menu_open">
+                        <span class="close"></span>
+                        <li><a href="#header" class="sc">Главная</a></li>
+                        <li><a href="#our_product" class="sc">Каталог</a></li>
+                        <li><a href="#work" class="sc">Этапы работы</a></li>
+                        <li><a href="#rev_section" class="sc">Отзывы</a></li>
+                        <li><a href="#cont" class="sc">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="banner">
+        <div class="header_bottom">
+            <div class="clip">
+                <div class="container_flex">
+                    <div class="header_bottom_text">
+                        <p class="p_up">
+                            Металлопрокат
+                            от производителя дешевле на 22%
+                        </p>
+                        <p class="p_down">Доставка за один день</p>
+                        <button data-toggle="modal" data-target="#myModal1">
+                            Оставить заявку
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- The Modal -->
+        <div class="modal" id="myModal1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header text-center">
+                        <span>Заполните заявку</span>
+                        <button type="button" class="modal_clos" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <input type="text" placeholder="Имя">
+                        <input type="text" class="phone_modal">
+                        <div class="textarea_modal">
+                            <textarea placeholder="Комментарий:"></textarea>
+                        </div>
+                        <button>
+                            Отправить заявку
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="our_advantages_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="sections_titles text-center">
+                        <p>
+                            Наши преимущества
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="our_advantages_box text-center">
+                        <div class="img_box">
+                            <img src="img/icon_1.png" alt="">
+                        </div>
+                        <p class="box_titles_1">
+                            Широкий </p>
+                        <p class="box_titles_2">
+                            ассортимент продукции
+                        </p>
+                        <p class="box_text">
+                            Более 500 наименований
+                            от нескольких крупных <br> заводов РФ
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="our_advantages_box text-center">
+                        <div class="img_box">
+                            <img src="img/icon_2.png" alt="">
+                        </div>
+                        <p class="box_titles_1">
+                            Двухуровневая </p>
+                        <p class="box_titles_2">
+                            система контроля
+                        </p>
+                        <p class="box_text">
+                            Сертификаты ГОСТ и проверка заказа нашими специалистами перед отправкой
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="our_advantages_box text-center">
+                        <div class="img_box">
+                            <img src="img/icon_3.png" alt="">
+                        </div>
+                        <p class="box_titles_1">
+                            Оптовые поставки</p>
+                        <p class="box_titles_2">
+                            в сжатые сроки
+                        </p>
+                        <p class="box_text">
+                            Можем поставить даже крупную партию товара
+                            за один день
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="our_advantages_box text-center">
+                        <div class="img_box">
+                            <img src="img/icon_4.png" alt="">
+                        </div>
+                        <p class="box_titles_1">
+                            Минимальная </p>
+                        <p class="box_titles_2">
+                            наценка
+                        </p>
+                        <p class="box_text">
+                            Мы работаем напрямую с производителями это снижает цену за единицу товара
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about_product" id="our_product">
+        <div class="sections_titles text-center">
+            <p>
+                Каталог продукции
+            </p>
+        </div>
+        <div class="container_flex">
+            <div class="our_product">
+                <div class="product">
+                    <div class="product-img">
+                        <img src="img/product_1.png" alt="pr">
+                        <img src="img/product_1_hover.png" alt="pr">
+                    </div>
+                    <p>труба Профильная и круглая</p>
+                </div>
+                <div class="product">
+                    <div class="product-img">
+                        <img src="img/product_2.png" alt="pr">
+                        <img src="img/product_2_hover.png" alt="pr">
+                    </div>
+                    <p>Труба ВПГ</p>
+                </div>
+                <div class="product">
+                    <div class="product-img">
+                        <img src="img/product_3.png" alt="pr">
+                        <img src="img/product_3_hover.png" alt="pr">
+                    </div>
+                    <p> Квадратный профиль</p>
+                </div>
+
+
+                <div class="product">
+                    <div class="product-img">
+                        <img src="img/product_4.png" alt="pr">
+                        <img src="img/product_4_hover.png" alt="pr">
+                    </div>
+                    <p>арматура</p>
+                </div>
+                <div class="product">
+                    <div class="product-img">
+                        <img src="img/product_5.png" alt="pr">
+                        <img src="img/product_5_hover.png" alt="pr">
+                    </div>
+                    <p>профнастил </p>
+                </div>
+                <div class="product">
+                    <div class="product-img">
+                        <img src="img/product_6.png" alt="pr">
+                        <img src="img/product_6_hover.png" alt="pr">
+                    </div>
+                    <p>Листовой прокат</p>
+                </div>
+
+
+                <div class="product">
+                    <div class="product-img">
+                        <img src="img/product_7.png" alt="pr">
+                        <img src="img/product_7_hover.png" alt="pr">
+                    </div>
+                    <p>Двутавровая балка</p>
+                </div>
+                <div class="product">
+                    <div class="product-img">
+                        <img src="img/product_8.png" alt="pr">
+                        <img src="img/product_8_hover.png" alt="pr">
+                    </div>
+                    <p>Сетка</p>
+                </div>
+                <div class="product">
+                    <div class="product-img">
+                        <img src="img/product_9.png" alt="pr">
+                        <img src="img/product_9_hover.png" alt="pr">
+                    </div>
+                    <p>проволока </p>
+                </div>
+
+
+                <div class="product">
+                    <div class="product-img">
+                        <img src="img/product_10.png" alt="pr">
+                        <img src="img/product_10_hover.png" alt="pr">
+                    </div>
+                    <p>швеллер</p>
+                </div>
+                <div class="product">
+                    <div class="product-img">
+                        <img src="img/product_11.png" alt="pr">
+                        <img src="img/product_11_hover.png" alt="pr">
+                    </div>
+                    <p>уголок</p>
+                </div>
+                <div class="product">
+                    <div class="product-img">
+                        <img src="img/product_12.png" alt="pr">
+                        <img src="img/product_12_hover.png" alt="pr">
+                    </div>
+                    <p>Фиксатор арматуры </p>
+                </div>
+            </div>
+        </div>
+        <div class="request_block">
+            <p><span>У нас более 500 наименований товара!</span> Оставьте заявку и мы перезвоним в течение 5 минут</p>
+            <button data-toggle="modal" data-target="#myModal1">Оставить заявку</button>
+        </div>
+        </div>
+    </section>
+
+    <section class="stages_of_work" id="work">
+        <div class="container">
+            <div class="sections_titles text-center">
+                <p>
+                    Этапы работы
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="stages">
+                        <span>1</span>
+                        <div class="stages_text">
+                            <p>Подача заявки</p>
+                            <p>
+                                Обработка менеджером технической информации
+                                по заказу, запрос товара
+                                на складе, согласование стоимости и сроков поставки, <br>заключение договора.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="stages">
+                        <span>2</span>
+                        <div class="stages_text">
+                            <p>Оплата</p>
+                            <p>
+                                Мы работаем только
+                                по безналичному расчету. Действует система скидок
+                                на крупные партии товара
+                                и приятные бонусы для постоянных клиентов.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="stages">
+                        <span>3</span>
+                        <div class="stages_text">
+                            <p>Доставка</p>
+                            <p>
+                                Отправляем заказ надежными логистическими компаниями
+                                («ПЭК», «СДЭК», «Деловые линии») или самовывоз со склада. Доставка осуществляется на
+                                следующий день после оплаты.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="stages_button">
+                        <button data-toggle="modal" data-target="#myModal1">
+                            Оставить заявку
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="our_partners">
+        <div class="sections_titles text-center">
+            <p>
+                Наши партнеры
+            </p>
+        </div>
+        <div class="my_container">
+            <div class="my_row">
+                <div class="partnier">
+                    <img src="img/partnier_1.png" alt="partnier">
+                </div>
+                <div class="partnier">
+                    <img src="img/partnier_2.png" alt="partnier">
+                </div>
+                <div class="partnier">
+                    <img src="img/partnier_3.png" alt="partnier">
+                </div>
+                <div class="partnier">
+                    <img src="img/partnier_4.png" alt="partnier">
+                </div>
+                <div class="partnier">
+                    <img src="img/partnier_5.png" alt="partnier">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews" id="rev_section">
+        <div class="sections_titles text-center">
+            <p>
+                Отзывы
+            </p>
+        </div>
+        <div class="my_container">
+            <div class="reviews_blocks">
+                <div class="reviews_inner_slick">
+                    <div class="reviews_inner">
+                        <div class="rev_icon">
+                            <p>
+                                “
+                            </p>
+                        </div>
+                        <p>
+                            Мы закупаем арматуру и трубы у них больше года. У нас сложились теплые
+                            и хорошие партнерские отношения. Радует внимательное отношение
+                            к клиентам персонала компании.
+                            Любые спорные моменты или вопросы решаются в течение часа без конфликтов. Привозят все в
+                            срок
+                            без задержек и опозданий.
+                        </p>
+                        <span>Олег</span>
+                    </div>
+                </div>
+                <div class="reviews_inner_slick">
+                    <div class="reviews_inner">
+                        <div class="rev_icon">
+                            <p>
+                                “
+                            </p>
+                        </div>
+                        <p>
+                            Неоднократно осуществляли закупки профнастила для нашей организации  у компании «Металл
+                            Трейд». Выбор
+                            в пользу данного поставщика был сделан, исходя из оптимальных цен и качества поставляемого
+                            металлопроката. Оформление заказов и доставка
+                            также всегда проходили быстро. Представленный ассортимент
+                            продукции солиден, помогли с выбором.
+                        </p>
+                        <span>Вячеслав </span>
+                    </div>
+                </div>
+                <div class="reviews_inner_slick">
+                    <div class="reviews_inner">
+                        <div class="rev_icon">
+                            <p>
+                                “
+                            </p>
+                        </div>
+                        <p>
+                            Брали оптом тут арматуру, трубы, профнастил и уголки для строительства объекта. Удобно, что
+                            есть доставка.
+                            Отличное качество, да ещё и цены хорошие. Сотрудники быстро всё оформили, компания супер!
+                            Буду еще обращаться!
+                        </p>
+                        <span>Сергей </span>
+                    </div>
+                </div>
+                <div class="reviews_inner_slick">
+                    <div class="reviews_inner">
+                        <div class="rev_icon">
+                            <p>
+                                “
+                            </p>
+                        </div>
+                        <p>
+                            Хочу выразить благодарность Владиславу за поставку арматуры! Приехали
+                            на склад, провели взвешивание нужных нам позиций. Сейчас работаем
+                            с «Металл Трейд» по договору! Спасибо.
+                        </p>
+                        <span>Александр</span>
+                    </div>
+                </div>
+                <div class="reviews_inner_slick">
+                    <div class="reviews_inner">
+                        <div class="rev_icon">
+                            <p>
+                                “
+                            </p>
+                        </div>
+                        <p>
+                            Честная и проверенная компания, профессиональные менеджеры, особенно, наш менеджер –
+                            Сергей. Менеджер не мухлюет с ценами, везде же сейчас цены меняются по несколько раз в
+                            день, так что рассчитываешь на одну сумму, а там уже другая совсем.
+                            А здесь все честно. В «Металл Трейд» заказ вам отдают по той цене, какая
+                            была на момент оформления.
+                        </p>
+                        <span>Николай</span>
+                    </div>
+                </div>
+                <div class="reviews_inner_slick">
+                    <div class="reviews_inner">
+                        <div class="rev_icon">
+                            <p>
+                                “
+                            </p>
+                        </div>
+                        <p>
+                            Единственный поставщик кто оперативно поставил бесшовную электросварную трубу 51x3,5 в
+                            сроки! Спасибо Алексею
+                            за оперативную работу!
+                        </p>
+                        <span>Владимир</span>
+                    </div>
+                </div>
+                <div class="reviews_inner_slick">
+                    <div class="reviews_inner">
+                        <div class="rev_icon">
+                            <p>
+                                “
+                            </p>
+                        </div>
+                        <p>
+                            Приобретала профлист. Очень довольна обслуживанием. Девочки в офисе очень толковые,
+                            грамотно советуют при выборе товара, делают правильные расчеты. Постоянным клиентам хорошая
+                            скидка. Доставили в сроки.
+                        </p>
+                        <span>Елена</span>
+                    </div>
+                </div>
+                <div class="reviews_inner_slick">
+                    <div class="reviews_inner">
+                        <div class="rev_icon">
+                            <p>
+                                “
+                            </p>
+                        </div>
+                        <p>
+                            Сделал заказ в воскресенье в 22 часа.... отзвонились в понедельник утром.
+                            Все сразу же обговорили: цену, условия доставки, дату доставки. Менеджер Валентина все
+                            четко рассказала!
+                            Во вторник произвели оплату, доставка была в среду. Спасибо за быструю работу!
+                        </p>
+                        <span>Иван </span>
+                    </div>
+                </div>
+                <div class="reviews_inner_slick">
+                    <div class="reviews_inner">
+                        <div class="rev_icon">
+                            <p>
+                                “
+                            </p>
+                        </div>
+                        <p>
+                            Третий раз покупаю швеллер у вас.
+                            На мой взгляд лучшие цены на рынке. Доставили на следующий день без всяких проблем.
+                            Обращусь и четвертый раз.
+                        </p>
+                        <span>Антон</span>
+                    </div>
+                </div>
+                <div class="reviews_inner_slick">
+                    <div class="reviews_inner">
+                        <div class="rev_icon">
+                            <p>
+                                “
+                            </p>
+                        </div>
+                        <p>
+                            Мне кажется я нашел своего поставщика! Радуют ценами и быстрой доставкой. Менеджеры всегда
+                            помогут, ответят
+                            на все вопросы и все грамотно организуют.
+                        </p>
+                        <span>Сергей</span>
+                    </div>
+                </div>
+                <div class="reviews_inner_slick">
+                    <div class="reviews_inner">
+                        <div class="rev_icon">
+                            <p>
+                                “
+                            </p>
+                        </div>
+                        <p>
+                            Раньше всегда заказывал напрямую с завода, но эта компания дала меньшую цену. Подумал, что
+                            странно и заказал пробную партию. Все оказалось нормально, просто ребята сотрудничают с
+                            заводом напрямую. Теперь буду брать только тут!
+                        </p>
+                        <span>Евгений </span>
+                    </div>
+                </div>
+                <div class="reviews_inner_slick">
+                    <div class="reviews_inner">
+                        <div class="rev_icon">
+                            <p>
+                                “
+                            </p>
+                        </div>
+                        <p>
+                            Приобретала у них арматуру.
+                            Думала из-за такой низкой цене будет недовес и заранее подготовилась.
+                            Но нет, привезли ровно столько,
+                            сколько и заказывала, и именно то,
+                            что хотела. Молодцы!
+                        </p>
+                        <span>Анна</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="questions">
+        <!-- The Modal -->
+        <div class="modal" id="myModal2">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header text-center">
+                        <span>Остались вопросы?</span>
+                        <button type="button" class="modal_clos" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <input type="text" placeholder="Имя">
+                        <input type="text" class="phone_modal">
+                        <div class="textarea_modal">
+                            <textarea placeholder="Вопрос:"></textarea>
+                        </div>
+                        <button>
+                            Задать вопрос
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="my_container text-center">
+            <div class="questions_block">
+                <div class="sections_titles text-center">
+                    <p>
+                        Остались вопросы?
+                    </p>
+                </div>
+                <button data-toggle="modal" data-target="#myModal2">Задать вопрос</button>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="our_work">
+        <div class="work_exampls">
+            <div class="work_row">
+                <div class="exampl_inner">
+                    <img src="img/work_1.png" alt="w">
+                </div>
+                <div class="exampl_inner">
+                    <img src="img/work_2.png" alt="w">
+                </div>
+                <div class="exampl_inner">
+                    <img src="img/work_3.png" alt="w">
+                </div>
+                <div class="exampl_inner">
+                    <img src="img/work_4.png" alt="w">
+                </div>
+            </div>
+            <div class="work_row">
+                <div class="exampl_inner">
+                    <img src="img/work_5.png" alt="w">
+                </div>
+                <div class="exampl_inner">
+                    <img src="img/work_6.png" alt="w">
+                </div>
+                <div class="exampl_inner">
+                    <img src="img/work_7.png" alt="w">
+                </div>
+                <div class="exampl_inner">
+                    <img src="img/work_8.png" alt="w">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="address" id="cont">
+        <div class="my_container">
+            <div class="our_address text-center">
+                <p>
+                    Наш адрес:<span> Московская область, г. Одинцово, ул. Молодежная, д. 46, БЦ «Альянс», офис 426</span>
+                </p>
+            </div>
+            <div class="map">
+                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A854617128dc5aaca26387058263ba79052ca68a175482f27e0eb255df63ffdae&amp;max-width=1136&amp;height=380&amp;lang=ru_RU&amp;scroll=true"></script>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="my_container">
+            <div class="footer_inner">
+                <div class="logo_address">
+                    <div class="logo">
+                        <p><a href="#"> <span class="blue">МТ</span> Металл Трейд</a></p>
+                    </div>
+                    <p>
+                        Адрес: Московская область,
+                        г. Одинцово, ул. Молодежная, д. 46, БЦ «Альянс», офис 426
+                    </p>
+                </div>
+                <ul class="footer_menu">
+                    <li><a href="#header" class="sc">Главная</a></li>
+                    <li><a href="#our_product" class="sc">Каталог</a></li>
+                    <li><a href="#work" class="sc">Этапы работы</a></li>
+                    <li><a href="#rev_section" class="sc">Отзывы</a></li>
+                    <li><a href="#cont" class="sc">Контакты</a></li>
+                </ul>
+                <ul class="footer_product_1">
+                    <li><a href="#">Арматура</a></li>
+                    <li><a href="#">Труба профильная</a></li>
+                    <li><a href="#">Труба ВГП</a></li>
+                    <li><a href="#">Профнастил</a></li>
+                    <li><a href="#">Швеллер</a></li>
+                </ul>
+
+                <ul class="footer_product_2">
+                    <li><a href="#">Двутавровая балка
+                        </a></li>
+                    <li><a href="#">Уголок равнополочный
+                        </a></li>
+                    <li><a href="#">Сетка карточная
+                        </a></li>
+                    <li><a href="#">Листовой прокат
+                        </a></li>
+                    <li><a href="#">Проволока</a></li>
+                </ul>
+
+                <div class="footer_button">
+                    <button data-toggle="modal" data-target="#myModal">Обратный звонок</button>
+                    <div class="phone " data-toggle="modal" data-target="#myModal">
+                        <a href="#"> <img src="img/phone.png" alt="aa"></a>
+                    </div>
+                    <div class="call_back">
+                        <p class="phone_number">8 999 969 21 03</p>
+                    </div>
+                    <a href="#" data-toggle="modal" data-target="#myModal1">mtr@trademetall.com</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="js/JQuery-3.3.1.js"></script>
+    <script src="js/jquery.mask.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
